@@ -1,0 +1,103 @@
+
+
+.plan{
+    background-color: #001232;
+    height: 100%;
+}
+
+.timings{
+    display: flex;
+    background-color: #01173f;
+    align-items: center;
+}
+
+.panel{
+    width: 75%;
+}
+
+.left{
+    width: 40%;
+}
+
+.right{
+    width: 60%;
+   
+}
+
+.timeBox{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-bottom: 1px solid #11326f;
+}
+
+.name{
+    padding: 30px;
+    color: white;
+    justify-content: space-between;
+    border-right: 1px solid #11326f;
+    border-bottom: 1px solid #11326f;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.name svg{
+    margin-right: 10px;
+}
+
+.time{
+    padding: 6px 12px;
+    margin: 0 18px;
+    color: white;
+    background-color: #162f5f;
+    cursor: pointer;
+}
+
+.time:hover{
+    background-color: #31d7a9;
+}
+
+.advertise{
+    width: fit-content;
+}
+
+.container{
+    margin: 20% 10% 0 10%;
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.link{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 770px) {
+    .container{
+        display: block;
+    }
+    .panel{
+        width: 100%;
+    }
+    .advertise{
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .timings{
+        display: block;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .timeBox{
+margin: 30px 10px 0 10px;    }
+    .timings{
+        /* margin-bottom: 10px; */
+    }
+
+}

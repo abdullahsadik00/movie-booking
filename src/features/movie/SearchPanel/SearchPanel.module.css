@@ -1,0 +1,163 @@
+.searchContainer {
+position: relative;
+top: -40px;
+    width: 85%;
+    margin: 0 auto;
+    background-image: url("http://pixner.net/boleto/demo/assets/images/ticket/ticket-bg01.jpg");
+    position: relative;
+    height: 296px;
+}
+.searchHeader {
+    display: flex;
+
+    width: 100%;
+    display: flex;
+    color: white;
+}
+.searchTicketTitle {
+    
+    text-align: left;
+    /* background: brown; */
+    width: 50%;
+    text-transform: uppercase;
+    padding: 24px;
+}
+.category {
+    color: #31d7a9;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.title {
+    text-decoration: none;
+}
+
+.searchTicketMenu {
+    /* background: blanchedalmond; */
+    width: 50%;
+    margin: 10px 0;
+    position: relative;
+}
+
+.searchTicketMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.searchTicketMenu ul li {
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    height: 50px;
+    width: calc(33.33% - 17px);
+}
+
+.searchTicketMenuThumbnail {
+    width: 40px;
+}
+
+.searchTicketMenuWrapper {
+    background: #7d78ff;
+    display: flex;
+    align-items: center;
+    border-radius: 45px;
+}
+
+.searchTicketMenuWrapper div {
+    margin-right: 13px;
+}
+.searchPanel {
+    background:rgba(64, 1, 84, 0.51);
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    width: 95%;
+    /*  */
+    padding: 36px 20px;
+    /* background-color: black; */
+    opacity: 0.8;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.p-dropdown{
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.searchWarper{
+    width: 25%;
+    border-bottom: 1px solid white;
+    /* padding-bottom: 2px; */
+}
+.searchWarper input{
+background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: large;
+}
+.searchWarper input::placeholder{
+    color: white;
+    font-weight: 500;
+}
+.searchWarper svg{
+    color: #90a5e8;
+    height: 20px;
+    width: 20px;
+    
+}
+.searchPanel_input {
+    background: #31d7a9;
+    border: none;
+    border-bottom: 1px solid blue;
+    height: 40px;
+}
+
+.searchPanel_input input {
+    border: none;
+    border-bottom: 1px solid #9eb1eb;
+    border-radius: 0;
+    padding: 0;
+    height: 100%;
+    padding-right: 50px;
+
+}
+
+.searchOption{
+    display: flex;
+    justify-content: inherit;
+    align-items: center;
+}
+.searchOption label{
+    color: #31d7a9;
+    margin: 0 12px;
+}
+
+
+@media only screen and (max-width : 768px) {
+    .searchHeader {
+        flex-direction: column;
+    }
+    .searchTicketTitle{
+        width: 100%;
+    }
+    .searchTicketMenu{
+        width: 100%;
+        margin-top: 18px;
+    }.searchTicketMenu ul li {
+        height: 40px;
+    }
+    
+}

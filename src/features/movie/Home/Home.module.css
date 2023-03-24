@@ -1,0 +1,18 @@
+
+.homeContainer{
+    background-color:#001232;
+    height: 100%;
+    background-image: url("http://pixner.net/boleto/demo/assets/images/banner/banner02.jpg");
+    background-repeat: no-repeat;
+
+}
+@media only screen and (max-width: 600px) {
+    .movieGrid{
+        margin: 50px;
+        background-color: antiquewhite;
+    }    
+}
+
+.row{
+    margin-right: 0 !important;
+}

@@ -1,0 +1,30 @@
+.bookingSummary{
+    display: flex;
+    background-image: url("https://pixner.net/boleto/demo/assets/images/movie/movie-bg-proceed.jpg");
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    background-repeat: no-repeat;
+    padding: 36px;
+    margin: 24px 10%;
+}
+.itemHeader{
+    color: #fff;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 14px;
+}
+.itemContent{
+    color: #31d7a9;
+    font-weight: 700;
+    font-size: 40px;
+}.btnProceed{
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+    padding: 11px 24px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 25px;
+    display: inline-block;
+    text-decoration: none;
+}
