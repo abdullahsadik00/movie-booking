@@ -6,6 +6,9 @@
     background-repeat: no-repeat;
 
 }
+.row{
+    margin-right: 0;
+}
 @media only screen and (max-width: 600px) {
     .movieGrid{
         margin: 50px;

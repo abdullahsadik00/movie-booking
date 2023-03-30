@@ -36,3 +36,15 @@ code {
 .p-card-content{
   padding: 0 !important;
 }
+.p-dropdown .p-dropdown-label.p-placeholder {
+  color: #fff !important;
+}
+.p-dropdown .p-dropdown-trigger{
+  color: #fff;
+}
+.p-dropdown {
+  width: 70%;
+}
+.row{
+  margin-right: 0;
+}

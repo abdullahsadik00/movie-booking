@@ -12,7 +12,8 @@
     padding: 24px;
     width: 100%;
     display: flex;
-    justify-content: end;
+    padding-left: 400px;
+    justify-content: space-between;
     align-items: center;
 }
 

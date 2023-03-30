@@ -5,11 +5,13 @@ top: -40px;
     margin: 0 auto;
     background-image: url("http://pixner.net/boleto/demo/assets/images/ticket/ticket-bg01.jpg");
     position: relative;
+    background-repeat: no-repeat;
     height: 296px;
 }
 .searchHeader {
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     display: flex;
     color: white;
@@ -34,21 +36,20 @@ top: -40px;
 }
 
 .searchTicketMenu {
-    /* background: blanchedalmond; */
-    width: 50%;
+    width: auto;
     margin: 10px 0;
     position: relative;
+    margin-right: 5%;
 }
 
 .searchTicketMenu ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-right: 44px;
     overflow: hidden;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     width: 100%;
-    margin: 0;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -71,6 +72,8 @@ top: -40px;
     display: flex;
     align-items: center;
     border-radius: 45px;
+    width: 120px;
+    padding: 8px 24px;
 }
 
 .searchTicketMenuWrapper div {
@@ -107,6 +110,7 @@ background-color: transparent;
     outline: none;
     color: white;
     font-size: large;
+    width: 85%;
 }
 .searchWarper input::placeholder{
     color: white;
@@ -137,27 +141,49 @@ background-color: transparent;
 
 .searchOption{
     display: flex;
-    justify-content: inherit;
+    justify-content: space-between;
     align-items: center;
 }
 .searchOption label{
     color: #31d7a9;
-    margin: 0 12px;
+    margin: 0 6px;
+}
+.SearchPanel{
+    background: #614ff6c9;
+    height: 84px;
+}
+.SearchPanel .row{
+    padding: 0 18px;
 }
 
 
-@media only screen and (max-width : 768px) {
-    .searchHeader {
-        flex-direction: column;
+
+@media only screen and (max-width : 540px) {
+    .searchContainer {
+     top: -10px;
+     height: 100%;   
     }
+
+}@media only screen and (max-width : 768px) {
+    /* .searchHeader {
+        flex-direction: column;
+    } */
     .searchTicketTitle{
-        width: 100%;
+        width: auto;
     }
     .searchTicketMenu{
-        width: 100%;
+        width: auto;
         margin-top: 18px;
     }.searchTicketMenu ul li {
         height: 40px;
+    }
+    
+}
+
+@media only screen and (max-width : 1068px) {
+    .searchWarper{
+        padding: 10px 0;
+        justify-content: space-between;
     }
     
 }

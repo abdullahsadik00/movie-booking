@@ -1,0 +1,184 @@
+
+.banner{
+    background-image: url("https://pixner.net/boleto/demo/assets/images/banner/banner04.jpg");
+    padding: 86px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+
+.date{
+    color: white;
+}
+
+.backBtn{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 7px 30px;
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+    padding: 11px 24px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.header{
+    padding: 26px 0;
+    border-top: 1px solid #17305f;
+    border-bottom: 1px solid #17305f;
+    background-color: #032055;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.selectbar{
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+    -webkit-box-shadow: 0px 10px 15px 0px rgb(59 55 188 / 50%);
+    box-shadow: 0px 10px 15px 0px rgb(59 55 188 / 50%);
+    border: none;
+    height: 36px;
+    padding: 0 8px;
+}
+
+.headerRight{
+    color: white;
+}
+.checkoutSummary{
+    background: #001232;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    display: flex;
+}
+.info{
+    display: flex;
+    background: #032055;    
+    margin: 20px 20px 20px 25px;
+    padding: 20px 18px;
+justify-content: space-between;
+align-items: center;
+}
+.checkoutSummary_Left{
+    flex: 6;
+}
+.checkoutSummary_Right{
+flex: 3;
+width: 100%;
+height: 250px;
+background: #5560ff;
+}
+.btnSignin{
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+    padding: 8px 14px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 25px;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+}
+.contact{
+    display: flex;
+    background: #032055;    
+    flex-direction: column;
+    margin: 20px 20px 20px 25px;
+    padding: 20px 18px;
+
+}
+.contact h2{
+    margin-bottom: 10px;
+}
+.form div{
+display: flex;
+width: 100%;
+}
+hr{
+    width: 97%;
+    margin: 30px 0;
+}
+.form div input{
+    margin: 10px 20px 10px 0;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid#6797ea;
+flex: 1;}
+.form div input::placeholder{
+    color: #6797ea;
+}
+.form div div {
+    flex: 1;
+}
+
+.promo{
+    background: #032055;    
+    margin: 20px 20px 20px 25px;
+    padding: 20px 18px;
+}
+
+.promo div{
+    display: flex;
+
+}
+.promo div input{
+    margin: 10px 20px 10px 0;
+    /* padding: px; */
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid#6797ea;
+        flex: 1;
+}
+
+.promo div input::placeholder{
+    color: #6797ea;
+}
+.payment{
+    background: #032055;    
+    margin: 20px 20px 20px 25px;
+    padding: 20px 18px;
+
+}
+.icons{
+    display: flex;
+}
+/* .icons div div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.icons div div{
+    width: 70px;
+}
+.icons div img{
+    width: 100%;
+}
+.icons div span{
+    margin: 10px 0; 
+    width: max-content;
+} */
+.icons div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 8px 15px;
+}
+.icons div div{
+    width: 55px;
+}
+.icons div div img{
+    width: 100%;
+}
