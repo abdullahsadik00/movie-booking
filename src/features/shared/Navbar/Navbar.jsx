@@ -4,14 +4,14 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     // <!-- Navbar -->
-    <nav class="navbar navbar-dark bg-dark  navbar-expand-lg ">
-      <div class="container-fluid">
-        <Link to="/" class="navbar-brand">
+    <nav className="navbar navbar-dark bg-dark  navbar-expand-lg ">
+      <div className="container-fluid">
+        <Link to="/" className="navbar-brand">
           {" "}
           <img src="https://pixner.net/boleto/demo/assets/images/logo/logo.png"></img>
         </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -19,28 +19,28 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <Link to="/" class="nav-link">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <Link to="/" className="nav-link">
                 {" "}
                 Home
               </Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 About
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 Contact Us
               </a>
             </li>
           </ul>
-          <button class="btn btn-primary" type="submit">
+          <button className="btn btn-primary" type="submit">
             Join Us
           </button>
         </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import { Card } from "primereact/card";
 import styles from "./MovieCard.module.css"
+import { useDispatch } from "react-redux";
+import { name, remove } from "../../../store/reducer/BookingReducer";
 const MovieCard = ({movie}) => {
   const header = (
     <img alt="Card" 

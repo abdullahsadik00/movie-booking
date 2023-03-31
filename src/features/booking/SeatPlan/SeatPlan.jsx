@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import { movieSelector } from "../../../store/reducer/BookingReducer";
 import Navbar from "../../shared/Navbar/Navbar";
 import BookingSummary from "../BookingSumary/BookingSummary";
 import SeatLayout from "../SeatLayout/SeatLayout";
@@ -23,12 +25,13 @@ const SeatPlan = () => {
     "G9",
     "G10",
   ];
-
+  const selector = useSelector(movieSelector);
+  console.log(selector)
   return (
     <div className={styles.container}>
     <Navbar />
     <div className={styles.banner}>
-        <h1>Venus</h1>
+        <h1>{selector}</h1>
         <p>City Walk</p>
     </div>
     <div className={styles.header}>
@@ -47,24 +50,24 @@ const SeatPlan = () => {
                 <option value="sc4">19:50</option>
             </select>
         </p>
-        <p className={styles.headerRight}>
+        <span className={styles.headerRight}>
             <h3>05:00</h3>
             <p>Mins Left</p>
-        </p>
+        </span>
     </div>
     <section className={styles.seatPlan}>
-        <p className={styles.screenHeader}>
+        <span className={styles.screenHeader}>
             <hr className={styles.topLine} />
             <h2>SCREEN</h2>
             <hr />
-        </p>
+        </span>
         <img width="50%" src="http://pixner.net/boleto/demo/assets/images/movie/screen-thumb.png"
         ></img>
-         <p className={styles.silverPlus}>
+         <span className={styles.silverPlus}>
             <hr className={styles.topLine} />
             <h4>SLIVER PLUS</h4>
             <hr />
-        </p>
+        </span>
         
         <SeatLayout />
 

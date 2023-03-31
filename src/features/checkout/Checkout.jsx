@@ -1,14 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import { bookingSelector, movieSelector, priceSelector, seatPriceSelector, theaterSelector, timeSelector } from "../../store/reducer/BookingReducer";
+import Newsletter from "../booking/newsletter/Newsletter";
+import Footer from "../shared/Footer/Footer";
 import Navbar from "../shared/Navbar/Navbar";
+
+// import {timeSelec}
 import styles from "./Checkout.module.css";
 const Checkout = () => {
+  const movieSelect=useSelector(movieSelector);
+  const theater=useSelector(theaterSelector);
+  const time = useSelector(timeSelector)
+  const seatPrice = useSelector(seatPriceSelector);
+  const seats = useSelector(bookingSelector)
+  const price = useSelector(priceSelector)
+  const [finalPrice,setFinalPrice] = useState(0)
+  useEffect(()=>{
+    setFinalPrice(price + (price * .18))
+  },[])
   return (
     <div>
       <Navbar />
       <div className={styles.banner}>
-        <h1>Venus</h1>
-        <p>City Walk</p>
+        <h1>{movieSelect}</h1>
+        <p>{theater}</p>
       </div>
       <div className={styles.header}>
         <p className={styles.headerLeft}>
@@ -83,22 +99,72 @@ const Checkout = () => {
                     alt=""
                   />
                 </div>
-                <span>Credit Card</span>
+                <span>Debit Card</span>
               </div>{" "}
-              <div>
-                <div>
-                  <img
-                    src="https://pixner.net/boleto/demo/assets/images/payment/card.png"
-                    alt=""
-                  />
-                </div>
-                <span>Credit Card</span>
-              </div>{" "}
+            </div>
+            <h3>Enter Your Card Details</h3>
+            <div className={styles.formWrapper}>
+              <label htmlFor="cardDetails">Card Details </label>
+              <input type="text" />
+            </div>
+            <div className={styles.formWrapper}>
+              <label htmlFor="cardDetails">Name on the Card </label>
+              <input type="text" />
+            </div>
+            <div className={styles.expiry}>
+              <div className={styles.formWrapper}>
+                {" "}
+                <label htmlFor="cardDetails">Expiration </label>
+                <input type="text" placeholder="MM/YY" />
+              </div>
+              <div className={styles.formWrapper}>
+                {" "}
+                <label htmlFor="cardDetails">CVV </label>
+                <input type="text" placeholder="CVV" />
+              </div>
+            </div>
+            <button className={styles.btnSignin}>MAKE PAYMENT</button>
+            <p>
+              By Clicking "Make Payment" you agree to the{" "}
+              <span>Terms and conditions </span>
+            </p>
+          </div>
+        </div>
+        <div className={styles.checkoutSummary_Right}>
+          <h2>Booking Summary</h2>
+          <hr />
+          <h6>{movieSelect}</h6>
+          <span>ENGLISH-2D</span>
+          <div className={styles.wrapper}>
+            <h6>{theater}</h6>
+            <h6>{seats.length}</h6>
+          </div>
+          <div className={styles.wrapper}>
+            <span> {time}</span>
+            <span>Tickets</span>
+          </div>
+          <div className={styles.wrapper}>
+            <h6>TICKETS PRICE</h6>
+            <h6>{seatPrice}</h6>
+          </div>
+          <hr />
+          <div className={styles.wrapper}>
+            <span>Tax</span>
+            <span>18%</span>
+          </div>
+          <div className={styles.payable}>
+            <div>
+              <h5>AMOUNT PAYABLE</h5>
+              <h5>{finalPrice}</h5>
+            </div>
+            <div style={{display:"flex",justifyContent:"center",margin:"10px 0"}}>
+              <button className={styles.backBtn}> Proceed</button>
             </div>
           </div>
         </div>
-        <div className={styles.checkoutSummary_Right}> </div>
       </div>
+      <Newsletter />
+      <Footer />
     </div>
   );
 };

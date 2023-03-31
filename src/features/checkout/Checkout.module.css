@@ -27,6 +27,7 @@ h1{
     background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
     padding: 11px 24px;
     font-weight: 600;
+    border: none;
     color: #ffffff;
     text-transform: uppercase;
     border-radius: 25px;
@@ -77,7 +78,8 @@ align-items: center;
 .checkoutSummary_Right{
 flex: 3;
 width: 100%;
-height: 250px;
+height: 100%;
+padding: 20px 0;
 background: #5560ff;
 }
 .btnSignin{
@@ -150,26 +152,13 @@ flex: 1;}
     background: #032055;    
     margin: 20px 20px 20px 25px;
     padding: 20px 18px;
-
 }
-.icons{
+.payment h3
+{
+    margin: 22px 0;
+}.icons{
     display: flex;
 }
-/* .icons div div{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.icons div div{
-    width: 70px;
-}
-.icons div img{
-    width: 100%;
-}
-.icons div span{
-    margin: 10px 0; 
-    width: max-content;
-} */
 .icons div{
     display: flex;
     align-items: center;
@@ -181,4 +170,71 @@ flex: 1;}
 }
 .icons div div img{
     width: 100%;
+}
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    /* width: 95%; */
+}
+.formWrapper input{
+    margin: 10px 20px 10px 0;
+    padding:7px 5px;
+    background: transparent;
+    border: 1px solid#3d82fa;
+}
+.expiry{
+    display: flex;
+}
+.expiry .formWrapper {
+    flex: 1;
+}
+.formWrapper input::placeholder{
+    color: #3d82fa;
+}
+.payment button{
+    margin: 10px 0;
+}
+.payment p{
+    margin-top: 18px;
+    font-size: 14px;
+    display: block;
+    color: #9aace5;
+}
+.payment p span{
+    color: #7c84ff;;
+}
+.checkoutSummary_Right{
+    margin: 20px 18px;
+    background: #032055;
+}
+.checkoutSummary_Right h2{
+    text-align: center;
+    margin: 10px 0;
+}
+.checkoutSummary_Right hr{
+    width: 90%;
+margin: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.checkoutSummary_Right h6{
+    padding: 0 18px;
+}
+.checkoutSummary_Right span{
+    padding: 0 18px;
+    margin: -10px 0;
+    color: #9aace5;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.payable div{
+display: flex;
+justify-content: space-between;
+}
+.checkoutSummary_Right h5{
+    padding: 0 18px;
+
 }

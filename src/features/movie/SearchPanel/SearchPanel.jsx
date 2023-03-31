@@ -54,9 +54,9 @@ const SearchPanel = () => {
           {/* </ul> */}
         </div>
       </div>
-      <div class="container justify-content-center h-3 p-3" >
-        <div class="row" style={{padding:"5px 20px",background:"#2f2ff8e8"}}>
-          <div class="col-xl-3 col-lg-12 col-md-6 col-sm-12 d-flex align-items-center" style={{background:"transparent"}}>
+      <div className="container justify-content-center h-3 p-3" >
+        <div className="row" style={{padding:"5px 20px",background:"#2f2ff8e8"}}>
+          <div className="col-xl-3 col-lg-12 col-md-6 col-sm-12 d-flex align-items-center" style={{background:"transparent"}}>
             <div className={styles.searchWarper} style={{display:"flex",width:"100%"}}>
               <input type="text" placeholder="Search for Movie" />
               <div style={{width:"24px",marginRight:"10px"}}><svg
@@ -71,7 +71,7 @@ const SearchPanel = () => {
               </svg></div>
             </div>{" "}
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 ">
+          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12 ">
             <div className={styles.searchOption}>
               <div style={{display:"flex",alignItems:"center"}}><img src="http://pixner.net/boleto/demo/assets/images/ticket/city.png"></img>
               <label>City</label>
@@ -85,7 +85,7 @@ const SearchPanel = () => {
               />
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 ">
+          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12 ">
           <div className={styles.searchOption}>
               <div style={{display:"flex",alignItems:"center"}}><img src="https://pixner.net/boleto/demo/assets/images/ticket/date.png"></img>
               <label>Date</label>
@@ -99,7 +99,7 @@ const SearchPanel = () => {
               />
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 ">
+          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12 ">
           <div className={styles.searchOption}>
           <div style={{display:"flex",alignItems:"center"}}>  <img src="https://pixner.net/boleto/demo/assets/images/ticket/cinema.png"></img>
               <label>Cinema</label>

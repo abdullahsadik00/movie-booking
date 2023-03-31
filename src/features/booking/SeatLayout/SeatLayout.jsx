@@ -13,7 +13,6 @@ const SeatLayout = () => {
   const selectedSeats=useSelector(bookingSelector);
 
   const [length6, setLength6] = useState([1, 1, 1, 1, 1, 1]);
-//   const [selectedSeats, setSelectedSeats] = useState([]);
 const dispatch = useDispatch()
   function selectSeat(seatNo) {
     if(selectedSeats.includes(seatNo)){
@@ -24,24 +23,23 @@ const dispatch = useDispatch()
     dispatch(calculatePrice())
   }
   return (
-    <table>
+    <table><tbody>
     {
-        silverPlus.map(r=>
-            <tr className={styles.seatRow}>
+        silverPlus.map((r,i)=>
+            <tr className={styles.seatRow} key={i}>
                 <td>{r}</td>
                 <td className={styles.seatCol}>
                 {
                 length4.map((item, i)=>
                     availableSeats.includes(r+(i+1)) ?
-                    <button onClick={()=>{selectSeat(r+(i+1))}} 
+                    <button key={i} onClick={()=>{selectSeat(r+(i+1))}} 
                     className={
                         selectedSeats.includes(r+(i+1)) ? styles.selectedSeats
                             : styles.availableSeats
                         }>
                         <span className={styles.seatNo}>{r+(i+1)}</span>
                     </button> :
-                    <img src="http://pixner.net/boleto/demo/assets/images/movie/seat01.png">
-                    </img>   
+                    <img src="http://pixner.net/boleto/demo/assets/images/movie/seat01.png" key={i}/>
                     )
                  }
                 </td>
@@ -49,15 +47,14 @@ const dispatch = useDispatch()
                 {
                 length6.map((item, i)=>
                 availableSeats.includes(r+(i+5)) ?
-                <button onClick={()=>{selectSeat(r+(i+5))}} 
+                <button onClick={()=>{selectSeat(r+(i+5))} }  key={i}
                     className={
                         selectedSeats.includes(r+(i+5)) ? styles.selectedSeats
                             : styles.availableSeats
                         }>
                         <span className={styles.seatNo}>{r+(i+5)}</span>
                     </button>  :
-                <img src="http://pixner.net/boleto/demo/assets/images/movie/seat01.png">
-                </img> 
+                <img src="http://pixner.net/boleto/demo/assets/images/movie/seat01.png" key={i}/>
                     )
                 }
                 </td>
@@ -65,22 +62,21 @@ const dispatch = useDispatch()
                 {
                 length4.map((item, i)=>
                 availableSeats.includes(r+(i+11)) ?
-                <button onClick={()=>{selectSeat(r+(i+5))}} 
+                <button onClick={()=>{selectSeat(r+(i+5))}} key={i}
                 className={
                     selectedSeats.includes(r+(i+5)) ? styles.selectedSeats
                         : styles.availableSeats
                     }>
                     <span className={styles.seatNo}>{r+(i+5)}</span>
                 </button>  :
-                <img src="http://pixner.net/boleto/demo/assets/images/movie/seat01.png">
-                </img> 
+                <img src="http://pixner.net/boleto/demo/assets/images/movie/seat01.png" key={i}/>
                     )
                 }
                 </td>
                 <td>{r}</td>
     </tr>
             )
-    }
+    }</tbody>
     
 </table>
       );

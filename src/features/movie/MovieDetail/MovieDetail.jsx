@@ -1,25 +1,26 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { Link, useParams } from "react-router-dom";
+import { movieSelector, sel, selectMovie } from "../../../store/reducer/BookingReducer";
 import Navbar from "../../shared/Navbar/Navbar";
 import MovieHeader from "../MovieHeader/MovieHeader";
 import styles from "./MovieDetail.module.css";
 const MovieDetail = () => {
   const { id } = useParams();
-  console.log(id);
   const [movie, setMovie] = useState([]);
   async function callApi() {
     const response = await fetch("http://localhost:4000/api/movie/" + id);
     const parsedResponce = await response.json();
     setMovie(parsedResponce);
   }
-  console.log("before fetch");
-  console.log(movie);
+  const dispatch = useDispatch()
+  dispatch(selectMovie(movie.name))
   useEffect(() => {
+    console.log(movie.name)
     callApi();
   }, []);
-  console.log("after fetch");
-  console.log(movie);
-
+  const sect = useSelector(sel);
+console.log(sect)
   return (
     <div>
       <Navbar />
@@ -81,9 +82,7 @@ const MovieDetail = () => {
               Tomatometer
             </div>
           </div>
-          <a href={`${id}/ticketPlan`} className={styles.btnBookTickets}>
-            Book Tickets
-          </a>
+          <Link to={"ticketPlan"} className={styles.btnBookTickets}>Book Tickets</Link>
         </section>
       </div>
     </div>
