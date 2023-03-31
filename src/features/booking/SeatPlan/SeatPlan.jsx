@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
-import { movieSelector } from "../../../store/reducer/BookingReducer";
+import { Link, useNavigate } from "react-router-dom";
+import { movieSelector, theaterSelector } from "../../../store/reducer/BookingReducer";
 import Navbar from "../../shared/Navbar/Navbar";
 import BookingSummary from "../BookingSumary/BookingSummary";
 import SeatLayout from "../SeatLayout/SeatLayout";
@@ -25,20 +25,22 @@ const SeatPlan = () => {
     "G9",
     "G10",
   ];
+  const navigate = useNavigate()
   const selector = useSelector(movieSelector);
+  const citySelector = useSelector(theaterSelector);
   console.log(selector)
   return (
     <div className={styles.container}>
     <Navbar />
     <div className={styles.banner}>
-        <h1>{selector}</h1>
-        <p>City Walk</p>
+        <h1 style={{textAlign:"center"}}>{selector}</h1>
+        <p>{citySelector}</p>
     </div>
     <div className={styles.header}>
         <p className={styles.headerLeft}>
-           <Link className={styles.backBtn}>
+           <button className={styles.backBtn} onClick={()=>navigate(-1)}>
                {'<< Back'}
-            </Link>
+            </button>
         </p>
         <p className={styles.headerCenter}>
             <span className={styles.date}>MON, SEP 09 2020</span>

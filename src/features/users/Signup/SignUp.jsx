@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './SignUp.css'
 const Signup = () => {
   return (
@@ -39,9 +40,9 @@ const Signup = () => {
 
         <span className="loginText" htmlFor="">
           Already have an account? &nbsp;&nbsp;
-          <a className="loginLink" href="/login">
+          <Link className="loginLink" to="/signin">
             Login{" "}
-          </a>
+          </Link>
         </span>
       </div></div>
     </div>

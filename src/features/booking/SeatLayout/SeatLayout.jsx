@@ -23,7 +23,8 @@ const dispatch = useDispatch()
     dispatch(calculatePrice())
   }
   return (
-    <table><tbody>
+<div>
+<table style={{tableLayout:"fixed"}}><tbody>
     {
         silverPlus.map((r,i)=>
             <tr className={styles.seatRow} key={i}>
@@ -79,6 +80,7 @@ const dispatch = useDispatch()
     }</tbody>
     
 </table>
+</div>
       );
 };
 

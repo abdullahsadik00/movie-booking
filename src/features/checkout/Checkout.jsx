@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { bookingSelector, movieSelector, priceSelector, seatPriceSelector, theaterSelector, timeSelector } from "../../store/reducer/BookingReducer";
 import Newsletter from "../booking/newsletter/Newsletter";
 import Footer from "../shared/Footer/Footer";
@@ -9,6 +9,7 @@ import Navbar from "../shared/Navbar/Navbar";
 // import {timeSelec}
 import styles from "./Checkout.module.css";
 const Checkout = () => {
+const navigate = useNavigate()
   const movieSelect=useSelector(movieSelector);
   const theater=useSelector(theaterSelector);
   const time = useSelector(timeSelector)
@@ -28,7 +29,7 @@ const Checkout = () => {
       </div>
       <div className={styles.header}>
         <p className={styles.headerLeft}>
-          <Link className={styles.backBtn}>{"<< Back"}</Link>
+          <button className={styles.backBtn} onClick={()=>navigate(-1)}>{"<< Back"}</button>
         </p>
         <p className={styles.headerCenter}>
           <span className={styles.date}>MON, SEP 09 2020</span>

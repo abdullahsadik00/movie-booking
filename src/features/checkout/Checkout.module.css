@@ -174,7 +174,7 @@ flex: 1;}
 .formWrapper{
     display: flex;
     flex-direction: column;
-    /* width: 95%; */
+ 
 }
 .formWrapper input{
     margin: 10px 20px 10px 0;
@@ -237,4 +237,36 @@ justify-content: space-between;
 .checkoutSummary_Right h5{
     padding: 0 18px;
 
+}
+
+@media only screen and (max-width: 769px) {
+    .checkoutSummary{
+        flex-direction: column;
+        /* width: 90%; */
+        /* margin: 24px 4%; */
+        /* height: 100%; */
+}.checkoutSummary_Right{
+    margin: 20px 0;
+}
+}
+
+@media only screen and (max-width: 500px) {
+    .info{
+        flex-direction: column;
+    }
+    .form div{
+        flex-direction: column;
+    }
+    .form div input{
+        margin: 10px 0;
+    }
+    .payment{
+        margin: 10px 0;
+    }
+    .formWrapper input{
+        margin: 10px 0;
+    }
+    .expiry{
+        flex-direction: column;
+    }
 }

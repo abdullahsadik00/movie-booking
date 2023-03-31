@@ -43,3 +43,20 @@ margin: 0 5px;
 color: #a0a0a0;
 font-weight: 500;
 }
+
+@media only screen and (max-width: 769px) {
+    .footer{
+        padding:  40px;
+    }}
+@media only screen and (max-width: 500px) {
+    .footer{
+      flex-direction: column;
+    }.footerWrapperBottom{
+        flex-direction: column;
+    }
+    .footerWrapperBottom p{
+        text-align: center;
+    }.link{
+        text-align: center;
+    }
+}

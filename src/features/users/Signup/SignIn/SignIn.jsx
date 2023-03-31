@@ -1,6 +1,8 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 import  './SignIn.css'
 const SignIn = () => {
+  const navigate = useNavigate()
   return (
     <div className="signinContainer">
       <div className="signinForm">
@@ -33,14 +35,14 @@ const SignIn = () => {
           <a href="">Forgot Password</a>
         </div>
         <div className="btn-wrapper">
-          <button className="btn btn-primary mb-3">Sign In</button>
+          <button className="btn btn-primary mb-3" onClick={()=>{navigate("/")}}>Sign In</button>
         
 
         <span className="loginText" htmlFor="">
           Don't have an account? &nbsp;&nbsp;
-          <a className="loginLink" href="/signup">
+          <Link className="loginLink" to="/signup">
             SignUp Now{" "}
-          </a>
+          </Link>
         </span>
         </div></div>
     </div>

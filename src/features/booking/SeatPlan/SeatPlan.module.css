@@ -24,6 +24,7 @@ h1{
     text-decoration: none;
     font-weight: 400;
     padding: 7px 30px;
+    border: none;
     background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
     padding: 11px 24px;
     font-weight: 600;

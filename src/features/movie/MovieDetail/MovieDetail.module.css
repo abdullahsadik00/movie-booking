@@ -55,7 +55,9 @@
     .movieHeader{
         padding-left: 10px;
     }
-
-
+    .banner{
+        padding-left: 0;
+   
+    }
     
 }

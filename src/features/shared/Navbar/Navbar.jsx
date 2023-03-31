@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 const Navbar = () => {
+  const navigate = useNavigate()
   return (
     // <!-- Navbar -->
     <nav className="navbar navbar-dark bg-dark  navbar-expand-lg ">
@@ -29,18 +30,8 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                About
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Contact Us
-              </a>
-            </li>
           </ul>
-          <button className="btn btn-primary" type="submit">
+          <button className="btn btn-primary" type="submit" onClick={()=>navigate("signup")}>
             Join Us
           </button>
         </div>

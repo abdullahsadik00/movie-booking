@@ -7,6 +7,7 @@ import Checkout from "./features/checkout/Checkout";
 import Home from "./features/movie/Home/Home";
 import MovieDetail from "./features/movie/MovieDetail/MovieDetail";
 import SignIn from "./features/users/Signup/SignIn/SignIn";
+import Signup from "./features/users/Signup/SignUp";
 import SignUp from "./features/users/Signup/SignUp";
 import { store } from "./store/store";
 
@@ -18,6 +19,8 @@ function App() {
     <Provider store={store}>
     <Router>
       <Routes>
+        <Route path="/signin" element={<SignIn/>}/>
+        <Route path="/signup" element={<Signup/>}/>
         <Route path='/' element={
            <Home />
         }>
