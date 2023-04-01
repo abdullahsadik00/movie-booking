@@ -1,0 +1,24 @@
+Discovery API: production
+Key: sqkh3jjdzctsg43hqajvm7mk
+Application
+Boleto App
+Key:
+sqkh3jjdzctsg43hqajvm7mk
+Secret:
+ufjmwwPAZf
+Status:
+waiting
+
+
+localhost / netlify is not working
+
+1. on home component fetch the data save on redux       -done
+2. on detail component dispatch the id.                 -done
+3. reducer will then give the data of that id           -done
+4. render the data on detail component                  -done
+
+but above operation introduce a bug which needs to be resolved
+
+1. on home component fetch the data save on redux       
+2. on ticket component fetch the data of that perticular movie
+3. render the data on ticket component                  

@@ -2,17 +2,21 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./MovieHeader.module.css";
 const MovieHeader = ({ movie }) => {
-  
+  console.log(movie)
   return (
     <div>
       <section className={styles.header}>
         <div>
-          <h3 className={styles.title}>{movie.name}</h3>
+          <h3 className={styles.title}>
+            {movie.name}
+            </h3>
           <p className={styles.languages}>
-            {movie.languages &&
-              movie.languages.map((language) => (
-                <span>{language}&nbsp;&nbsp;</span>
-              ))}
+             {movie.languages &&
+             movie.languages.map((language) => ( 
+                 <span>   
+                 {language}&nbsp;&nbsp; 
+                  </span> 
+               ))}
           </p>
         </div>
         <p>
@@ -21,7 +25,7 @@ const MovieHeader = ({ movie }) => {
               <Link to="#" className={styles.btnGenres}>
                 {gen}
               </Link>
-            ))}
+            ))} 
         </p>
         <div>
           <p className={styles.dates}>

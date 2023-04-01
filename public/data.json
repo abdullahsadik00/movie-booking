@@ -1,0 +1,380 @@
+[
+    {
+        "_id": "63f8df1e681a6ce4fe75f883",
+        "name": "Soul",
+        "description": "A musician who has lost his passion for music is transported out of his body and must find his way back with the help of an infant soul learning about herself.",
+        "dateOfRelease": "2020-12-25",
+        "rating": 8.1,
+        "posterUrl": "https://m.media-amazon.com/images/M/MV5BZGE1MDg5M2MtNTkyZS00MTY5LTg1YzUtZTlhZmM1Y2EwNmFmXkEyXkFqcGdeQXVyNjA3OTI0MDc@._V1_.jpg",
+        "duration": 100,
+        "genre": [
+            "Animation",
+            "Adventure",
+            "Comedy"
+        ],
+        "languages": [
+            "English"
+        ],
+        "userReviews": [
+            {
+                "userProfilePicUrl": "https://w7.pngwing.com/pngs/4/736/png-transparent-female-avatar-girl-face-woman-user-flat-classy-users-icon.png",
+                "name": "Sarah",
+                "comment": "A beautiful and touching movie that teaches valuable life lessons.",
+                "rating": 9,
+                "date": "2022-02-05"
+            },
+            {
+                "userProfilePicUrl": "https://www.shareicon.net/data/512x512/2016/05/24/770137_man_512x512.png",
+                "name": "Mike",
+                "comment": "The animation and music are stunning.",
+                "rating": 8,
+                "date": "2022-02-06"
+            }
+        ]
+    },
+    {
+        "_id": "63f8df1e681a6ce4fe75f882",
+        "name": "The Trial of the Chicago 7",
+        "description": "In 1969, seven people were charged by the federal government with conspiracy and more, arising from the protests at the 1968 Democratic National Convention in Chicago.",
+        "dateOfRelease": "2020-10-16",
+        "rating": 7.8,
+        "posterUrl": "https://m.media-amazon.com/images/M/MV5BMGEzMzhiMTctNzI3OC00NTc3LThiZWYtNzg3N2Y4NjA4YThiXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_.jpg",
+        "duration": 129,
+        "genre": [
+            "Drama",
+            "History",
+            "Thriller"
+        ],
+        "languages": [
+            "English"
+        ],
+        "userReviews": [
+            {
+                "userProfilePicUrl": "https://www.shareicon.net/data/512x512/2016/05/24/770137_man_512x512.png",
+                "name": "John",
+                "comment": "A well-acted and gripping courtroom drama.",
+                "rating": 8,
+                "date": "2022-02-01"
+            },
+            {
+                "userProfilePicUrl": "https://w7.pngwing.com/pngs/4/736/png-transparent-female-avatar-girl-face-woman-user-flat-classy-users-icon.png",
+                "name": "Emily",
+                "comment": "A powerful and timely movie.",
+                "rating": 9,
+                "date": "2022-02-03"
+            }
+        ]
+    },
+    {
+        "_id": "63f8df1e681a6ce4fe75f884",
+        "name": "Tenet",
+        "description": "Armed with only one word, Tenet, and fighting for the survival of the world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+        "dateOfRelease": "2020-09-03",
+        "rating": 7.5,
+        "posterUrl": "https://m.media-amazon.com/images/M/MV5BYzg0NGM2NjAtNmIxOC00MDJmLTg5ZmYtYzM0MTE4NWE2NzlhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg",
+        "duration": 150,
+        "genre": [
+            "Action",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "languages": [
+            "English",
+            "Russian",
+            "Ukrainian",
+            "Estonian"
+        ],
+        "userReviews": [
+            {
+                "userProfilePicUrl": "https://www.shareicon.net/data/512x512/2016/05/24/770137_man_512x512.png",
+                "name": "David",
+                "comment": "A mind-bending and visually stunning movie.",
+                "rating": 9,
+                "date": "2022-02-08"
+            },
+            {
+                "userProfilePicUrl": "https://w7.pngwing.com/pngs/4/736/png-transparent-female-avatar-girl-face-woman-user-flat-classy-users-icon.png",
+                "name": "Sophia",
+                "comment": "A confusing but exhilarating movie.",
+                "rating": 8,
+                "date": "2022-02-09"
+            }
+        ]
+    },
+    {
+        "_id": "63f8df1e681a6ce4fe75f885",
+        "name": "The Invisible Man",
+        "description": "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
+        "dateOfRelease": "2020-02-27",
+        "rating": 7.1,
+        "posterUrl": "https://upload.wikimedia.org/wikipedia/en/3/3a/The_Invisible_Man_%282020_film%29_-_release_poster.jpg",
+        "duration": 124,
+        "genre": [
+            "Horror",
+            "Mystery",
+            "Sci-Fi"
+        ],
+        "languages": [
+            "English"
+        ],
+        "userReviews": [
+            {
+                "userProfilePicUrl": "https://w7.pngwing.com/pngs/4/736/png-transparent-female-avatar-girl-face-woman-user-flat-classy-users-icon.png",
+                "name": "Emma",
+                "comment": "A thrilling horror movie with a great performance by Elisabeth Moss.",
+                "rating": 8,
+                "date": "2022-02-12"
+            },
+            {
+                "userProfilePicUrl": "https://www.shareicon.net/data/512x512/2016/05/24/770137_man_512x512.png",
+                "name": "John",
+                "comment": "One of the best horror movies I have ever seen.",
+                "rating": 9,
+                "date": "2022-02-10"
+            }
+        ]
+    },
+    {
+        "_id": "63f8df1e681a6ce4fe75f888",
+        "name": "Enola Holmes",
+        "description": "When Enola Holmes, Sherlock's teen sister, discovers her mother missing, she sets off to find her, becoming a super-sleuth in her own right as she outwits her famous brother and unravels a dangerous conspiracy around a mysterious young Lord.",
+        "dateOfRelease": "2020-09-23",
+        "rating": 6.6,
+        "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDI1NWM1ZDItNDFhMi00YWRhLTg1YzItNTNhY2M2N2QzY2FkXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+        "duration": 123,
+        "genre": [
+            "Adventure",
+            "Crime",
+            "Drama"
+        ],
+        "languages": [
+            "English"
+        ],
+        "userReviews": [
+            {
+                "userProfilePicUrl": "https://www.shareicon.net/data/512x512/2016/05/24/770137_man_512x512.png",
+                "name": "Kate",
+                "comment": "A fun and entertaining movie with a great lead performance by Millie Bobby Brown.",
+                "rating": 7,
+                "date": "2022-02-16"
+            },
+            {
+                "userProfilePicUrl": "https://www.shareicon.net/data/512x512/2016/05/24/770137_man_512x512.png",
+                "name": "Tom",
+                "comment": "I enjoyed the movie but felt that the plot was a bit too simplistic.",
+                "rating": 6,
+                "date": "2022-02-11"
+            }
+        ]
+    },
+    {
+        "_id": "63f8df1e681a6ce4fe75f87e",
+        "name": "The Dark Knight",
+        "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "dateOfRelease": "2008-07-18",
+        "rating": 9,
+        "posterUrl": "https://cdn.shopify.com/s/files/1/1057/4964/products/The-Dark-Knight-Vintage-Movie-Poster-Original-1-Sheet-27x41_2c6e8b8f-b309-4db0-9ed6-bb7a837c88ea_800x.progressive.jpg",
+        "duration": 152,
+        "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "languages": [
+            "English",
+            "Mandarin"
+        ],
+        "userReviews": [
+            {
+                "userProfilePicUrl": "https://e7.pngegg.com/pngimages/136/22/png-clipart-user-profile-computer-icons-girl-customer-avatar-angle-heroes-thumbnail.png",
+                "name": "Chris",
+                "comment": "Heath Ledger's Joker is a masterpiece!",
+                "rating": 10,
+                "date": "2022-01-05"
+            },
+            {
+                "userProfilePicUrl": "https://cdn.imgbin.com/10/12/25/imgbin-computer-icons-avatar-woman-user-profile-avatar-CQe51MX3gw6B6Npd0qRJv9mEZ.jpg",
+                "name": "Emily",
+                "comment": "One of the best superhero movies ever made.",
+                "rating": 9,
+                "date": "2022-01-06"
+            }
+        ]
+    },
+    {
+        "_id": "63f8df1e681a6ce4fe75f87c",
+        "name": "The Shawshank Redemption",
+        "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "dateOfRelease": "1994-10-14",
+        "rating": 9.3,
+        "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+        "duration": 142,
+        "genre": [
+            "Drama"
+        ],
+        "languages": [
+            "English"
+        ],
+        "userReviews": [
+            {
+                "userProfilePicUrl": "https://www.shareicon.net/data/512x512/2016/05/24/770137_man_512x512.png",
+                "name": "John",
+                "comment": "One of the greatest movies of all time!",
+                "rating": 10,
+                "date": "2022-01-01"
+            },
+            {
+                "userProfilePicUrl": "https://e7.pngegg.com/pngimages/674/524/png-clipart-professional-computer-icons-avatar-job-avatar-heroes-computer.png",
+                "name": "Jane",
+                "comment": "An amazing film with a powerful message.",
+                "rating": 9,
+                "date": "2022-01-02"
+            }
+        ]
+    },
+    {
+        "_id": "63f8df1e681a6ce4fe75f87d",
+        "name": "The Godfather",
+        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "dateOfRelease": "1972-03-24",
+        "rating": 9.2,
+        "posterUrl": "https://www.themoviedb.org/t/p/original/wWJbBo5yjw22AIjE8isBFoiBI3S.jpg",
+        "duration": 175,
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "languages": [
+            "English",
+            "Italian"
+        ],
+        "userReviews": [
+            {
+                "userProfilePicUrl": "https://e7.pngegg.com/pngimages/136/22/png-clipart-user-profile-computer-icons-girl-customer-avatar-angle-heroes-thumbnail.png",
+                "name": "Bob",
+                "comment": "A classic that never gets old!",
+                "rating": 10,
+                "date": "2022-01-03"
+            },
+            {
+                "userProfilePicUrl": "https://e7.pngegg.com/pngimages/674/524/png-clipart-professional-computer-icons-avatar-job-avatar-heroes-computer.png",
+                "name": "Alice",
+                "comment": "A must-watch for any movie lover!",
+                "rating": 9,
+                "date": "2022-01-04"
+            }
+        ]
+    },
+    {
+        "_id": "63f8df1e681a6ce4fe75f87f",
+        "name": "Schindler's List",
+        "description": "In Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+        "dateOfRelease": "1993-12-15",
+        "rating": 8.9,
+        "posterUrl": "https://i.pinimg.com/originals/e1/42/a5/e142a53687a5d1fcd838f2127d267999.jpg",
+        "duration": 195,
+        "genre": [
+            "Biography",
+            "Drama",
+            "History"
+        ],
+        "languages": [
+            "English",
+            "Hebrew",
+            "German",
+            "Polish"
+        ],
+        "userReviews": [
+            {
+                "userProfilePicUrl": "https://e7.pngegg.com/pngimages/136/22/png-clipart-user-profile-computer-icons-girl-customer-avatar-angle-heroes-thumbnail.png",
+                "name": "David",
+                "comment": "A powerful and moving film about the Holocaust.",
+                "rating": 10,
+                "date": "2022-01-07"
+            },
+            {
+                "userProfilePicUrl": "https://cdn.imgbin.com/10/12/25/imgbin-computer-icons-avatar-woman-user-profile-avatar-CQe51MX3gw6B6Npd0qRJv9mEZ.jpg",
+                "name": "Amy",
+                "comment": "One of Spielberg's best films.",
+                "rating": 9,
+                "date": "2022-01-08"
+            }
+        ]
+    },
+    {
+        "_id": "63f8df1e681a6ce4fe75f880",
+        "name": "The Lord of the Rings: The Fellowship of the Ring",
+        "description": "A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.",
+        "dateOfRelease": "2001-12-19",
+        "rating": 8.8,
+        "posterUrl": "https://images-cdn.ubuy.co.in/634d1909d46781775673cd3d-lord-of-the-rings-fellowship-of-the-ring.jpg",
+        "duration": 178,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "languages": [
+            "English",
+            "Sindarin"
+        ],
+        "userReviews": [
+            {
+                "userProfilePicUrl": "https://e7.pngegg.com/pngimages/136/22/png-clipart-user-profile-computer-icons-girl-customer-avatar-angle-heroes-thumbnail.png",
+                "name": "Tom",
+                "comment": "An epic and unforgettable journey.",
+                "rating": 10,
+                "date": "2022-01-09"
+            },
+            {
+                "userProfilePicUrl": "https://www.example.com/user10.jpg",
+                "name": "Sarah",
+                "comment": "One of my favorite movie franchises.",
+                "rating": 9,
+                "date": "2022-01-10"
+            }
+        ]
+    },
+    {
+        "_id": "63f8df1e681a6ce4fe75f889",
+        "name": "Avengers: Endgame",
+        "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+        "dateOfRelease": "2019-04-26",
+        "rating": 8.4,
+        "posterUrl": "https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg",
+        "duration": "3h 1min",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Spanish"
+        ],
+        "userReviews": [
+            {
+                "userProfilePicUrl": "https://www.shareicon.net/data/512x512/2016/05/24/770137_man_512x512.png",
+                "name": "John",
+                "comment": "A perfect ending to an epic journey.",
+                "rating": 10,
+                "date": "2019-04-27"
+            },
+            {
+                "userProfilePicUrl": "https://www.shareicon.net/data/512x512/2016/05/24/770137_man_512x512.png",
+                "name": "Sarah",
+                "comment": "The movie is too long, but the last hour makes up for it.",
+                "rating": 8,
+                "date": "2019-05-01"
+            },
+            {
+                "userProfilePicUrl": "https://www.shareicon.net/data/512x512/2016/05/24/770137_man_512x512.png",
+                "name": "Mike",
+                "comment": "It's not as good as Infinity War, but it's still a great movie.",
+                "rating": 9,
+                "date": "2019-04-28"
+            }
+        ]
+    }
+]

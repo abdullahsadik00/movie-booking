@@ -1,0 +1,675 @@
+[
+    {
+        "_id": "64060796ea2b6ba2b7b923e5",
+        "name": "Regal Cinemas",
+        "city": "New York",
+        "timings": [
+            {
+                "movie": "63f8df1e681a6ce4fe75f883",
+                "time": "12:30 PM",
+                "price": 15.99
+            },
+            {
+                "movie": "63f8df1e681a6ce4fe75f882",
+                "time": "3:00 PM",
+                "price": 12.99
+            },
+            {
+                "movie": "63f8df1e681a6ce4fe75f884",
+                "time": "6:30 PM",
+                "price": 10.99
+            }
+        ]
+    },
+    {
+        "_id": "64061af0ea2b6ba2b7b923e8",
+        "name": "ABC Theatre",
+        "city": "New York",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f883",
+                "date": "2023-03-08",
+                "time": "10:00 AM",
+                "price": 12.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f882",
+                "date": "2023-03-08",
+                "time": "12:00 PM",
+                "price": 15.99
+            }
+        ]
+    },
+    {
+        "_id": "64061af0ea2b6ba2b7b923e9",
+        "name": "Regal Cinemas",
+        "city": "New York",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f883",
+                "date": "2023-03-08",
+                "time": "10:00 AM",
+                "price": 12.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f882",
+                "date": "2023-03-08",
+                "time": "12:00 PM",
+                "price": 15.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f887",
+                "date": "2023-03-08",
+                "time": "2:00 PM",
+                "price": 14.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87f",
+                "date": "2023-03-08",
+                "time": "4:00 PM",
+                "price": 13.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f880",
+                "date": "2023-03-08",
+                "time": "6:00 PM",
+                "price": 16.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f884",
+                "date": "2023-03-08",
+                "time": "8:00 PM",
+                "price": 11.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f885",
+                "date": "2023-03-08",
+                "time": "10:00 PM",
+                "price": 18.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87c",
+                "date": "2023-03-08",
+                "time": "12:00 AM",
+                "price": 10.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f883",
+                "date": "2023-03-09",
+                "time": "10:00 AM",
+                "price": 12.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f882",
+                "date": "2023-03-09",
+                "time": "12:00 PM",
+                "price": 15.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f887",
+                "date": "2023-03-09",
+                "time": "2:00 PM",
+                "price": 14.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87f",
+                "date": "2023-03-09",
+                "time": "4:00 PM",
+                "price": 13.99
+            }
+        ]
+    },
+    {
+        "_id": "64061af0ea2b6ba2b7b923ea",
+        "name": "Cinepolis",
+        "city": "Chennai",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f883",
+                "date": "2023-03-08",
+                "time": "10:00 AM",
+                "price": 12.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f882",
+                "date": "2023-03-08",
+                "time": "12:00 PM",
+                "price": 15.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f887",
+                "date": "2023-03-08",
+                "time": "2:00 PM",
+                "price": 14.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87f",
+                "date": "2023-03-08",
+                "time": "4:00 PM",
+                "price": 13.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f880",
+                "date": "2023-03-08",
+                "time": "6:00 PM",
+                "price": 16.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f884",
+                "date": "2023-03-08",
+                "time": "8:00 PM",
+                "price": 11.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f885",
+                "date": "2023-03-08",
+                "time": "10:00 PM",
+                "price": 18.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87c",
+                "date": "2023-03-08",
+                "time": "12:00 AM",
+                "price": 10.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f883",
+                "date": "2023-03-09",
+                "time": "10:00 AM",
+                "price": 12.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f882",
+                "date": "2023-03-09",
+                "time": "12:00 PM",
+                "price": 15.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f887",
+                "date": "2023-03-09",
+                "time": "2:00 PM",
+                "price": 14.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87f",
+                "date": "2023-03-09",
+                "time": "4:00 PM",
+                "price": 13.99
+            }
+        ]
+    },
+    {
+        "_id": "64061af0ea2b6ba2b7b923eb",
+        "name": "Vue Cinema",
+        "city": "Manchester",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f883",
+                "date": "2023-03-08",
+                "time": "10:00 AM",
+                "price": 12.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f882",
+                "date": "2023-03-08",
+                "time": "12:00 PM",
+                "price": 15.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f887",
+                "date": "2023-03-08",
+                "time": "2:00 PM",
+                "price": 14.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87f",
+                "date": "2023-03-08",
+                "time": "4:00 PM",
+                "price": 13.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f880",
+                "date": "2023-03-08",
+                "time": "6:00 PM",
+                "price": 16.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f884",
+                "date": "2023-03-08",
+                "time": "8:00 PM",
+                "price": 11.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f885",
+                "date": "2023-03-08",
+                "time": "10:00 PM",
+                "price": 18.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87c",
+                "date": "2023-03-08",
+                "time": "12:00 AM",
+                "price": 10.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f883",
+                "date": "2023-03-09",
+                "time": "10:00 AM",
+                "price": 12.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f882",
+                "date": "2023-03-09",
+                "time": "12:00 PM",
+                "price": 15.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f887",
+                "date": "2023-03-09",
+                "time": "2:00 PM",
+                "price": 14.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87f",
+                "date": "2023-03-09",
+                "time": "4:00 PM",
+                "price": 13.99
+            }
+        ]
+    },
+    {
+        "_id": "64061af0ea2b6ba2b7b923ec",
+        "name": "PVR Cinemas",
+        "city": "New York",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f883",
+                "date": "2023-03-08",
+                "time": "10:00 AM",
+                "price": 12.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f882",
+                "date": "2023-03-08",
+                "time": "12:00 PM",
+                "price": 15.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f887",
+                "date": "2023-03-08",
+                "time": "2:00 PM",
+                "price": 14.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87f",
+                "date": "2023-03-08",
+                "time": "4:00 PM",
+                "price": 13.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f880",
+                "date": "2023-03-08",
+                "time": "6:00 PM",
+                "price": 16.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f884",
+                "date": "2023-03-08",
+                "time": "8:00 PM",
+                "price": 11.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f885",
+                "date": "2023-03-08",
+                "time": "10:00 PM",
+                "price": 18.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87c",
+                "date": "2023-03-08",
+                "time": "12:00 AM",
+                "price": 10.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f883",
+                "date": "2023-03-09",
+                "time": "10:00 AM",
+                "price": 12.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f882",
+                "date": "2023-03-09",
+                "time": "12:00 PM",
+                "price": 15.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f887",
+                "date": "2023-03-09",
+                "time": "2:00 PM",
+                "price": 14.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87f",
+                "date": "2023-03-09",
+                "time": "4:00 PM",
+                "price": 13.99
+            }
+        ]
+    },
+    {
+        "_id": "64061af0ea2b6ba2b7b923ed",
+        "name": "Cinemark",
+        "city": "Chennai",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f883",
+                "date": "2023-03-08",
+                "time": "10:00 AM",
+                "price": 12.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f882",
+                "date": "2023-03-08",
+                "time": "12:00 PM",
+                "price": 15.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f887",
+                "date": "2023-03-08",
+                "time": "2:00 PM",
+                "price": 14.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87f",
+                "date": "2023-03-08",
+                "time": "4:00 PM",
+                "price": 13.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f880",
+                "date": "2023-03-08",
+                "time": "6:00 PM",
+                "price": 16.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f884",
+                "date": "2023-03-08",
+                "time": "8:00 PM",
+                "price": 11.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f885",
+                "date": "2023-03-08",
+                "time": "10:00 PM",
+                "price": 18.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87c",
+                "date": "2023-03-08",
+                "time": "12:00 AM",
+                "price": 10.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f883",
+                "date": "2023-03-09",
+                "time": "10:00 AM",
+                "price": 12.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f882",
+                "date": "2023-03-09",
+                "time": "12:00 PM",
+                "price": 15.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f887",
+                "date": "2023-03-09",
+                "time": "2:00 PM",
+                "price": 14.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87f",
+                "date": "2023-03-09",
+                "time": "4:00 PM",
+                "price": 13.99
+            }
+        ]
+    },
+    {
+        "_id": "64061af0ea2b6ba2b7b923ee",
+        "name": "AMC Theatres",
+        "city": "Chennai",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f883",
+                "date": "2023-03-08",
+                "time": "10:00 AM",
+                "price": 12.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f882",
+                "date": "2023-03-08",
+                "time": "12:00 PM",
+                "price": 15.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f887",
+                "date": "2023-03-08",
+                "time": "2:00 PM",
+                "price": 14.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87f",
+                "date": "2023-03-08",
+                "time": "4:00 PM",
+                "price": 13.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f880",
+                "date": "2023-03-08",
+                "time": "6:00 PM",
+                "price": 16.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f884",
+                "date": "2023-03-08",
+                "time": "8:00 PM",
+                "price": 11.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f885",
+                "date": "2023-03-08",
+                "time": "10:00 PM",
+                "price": 18.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87c",
+                "date": "2023-03-08",
+                "time": "12:00 AM",
+                "price": 10.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f883",
+                "date": "2023-03-09",
+                "time": "10:00 AM",
+                "price": 12.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f882",
+                "date": "2023-03-09",
+                "time": "12:00 PM",
+                "price": 15.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f887",
+                "date": "2023-03-09",
+                "time": "2:00 PM",
+                "price": 14.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87f",
+                "date": "2023-03-09",
+                "time": "4:00 PM",
+                "price": 13.99
+            }
+        ]
+    },
+    {
+        "_id": "64061af0ea2b6ba2b7b923ef",
+        "name": "Odeon Cinemas",
+        "city": "New York",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f883",
+                "date": "2023-03-08",
+                "time": "10:00 AM",
+                "price": 12.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f882",
+                "date": "2023-03-08",
+                "time": "12:00 PM",
+                "price": 15.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f887",
+                "date": "2023-03-08",
+                "time": "2:00 PM",
+                "price": 14.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87f",
+                "date": "2023-03-08",
+                "time": "4:00 PM",
+                "price": 13.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f880",
+                "date": "2023-03-08",
+                "time": "6:00 PM",
+                "price": 16.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f884",
+                "date": "2023-03-08",
+                "time": "8:00 PM",
+                "price": 11.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f885",
+                "date": "2023-03-08",
+                "time": "10:00 PM",
+                "price": 18.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87c",
+                "date": "2023-03-08",
+                "time": "12:00 AM",
+                "price": 10.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f883",
+                "date": "2023-03-09",
+                "time": "10:00 AM",
+                "price": 12.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f882",
+                "date": "2023-03-09",
+                "time": "12:00 PM",
+                "price": 15.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f887",
+                "date": "2023-03-09",
+                "time": "2:00 PM",
+                "price": 14.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87f",
+                "date": "2023-03-09",
+                "time": "4:00 PM",
+                "price": 13.99
+            }
+        ]
+    },
+    {
+        "_id": "64061af0ea2b6ba2b7b923f0",
+        "name": "Palace Cinemas",
+        "city": "New York",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f883",
+                "date": "2023-03-08",
+                "time": "10:00 AM",
+                "price": 12.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f882",
+                "date": "2023-03-08",
+                "time": "12:00 PM",
+                "price": 15.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f887",
+                "date": "2023-03-08",
+                "time": "2:00 PM",
+                "price": 14.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87f",
+                "date": "2023-03-08",
+                "time": "4:00 PM",
+                "price": 13.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f880",
+                "date": "2023-03-08",
+                "time": "6:00 PM",
+                "price": 16.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f884",
+                "date": "2023-03-08",
+                "time": "8:00 PM",
+                "price": 11.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f885",
+                "date": "2023-03-08",
+                "time": "10:00 PM",
+                "price": 18.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87c",
+                "date": "2023-03-08",
+                "time": "12:00 AM",
+                "price": 10.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f883",
+                "date": "2023-03-09",
+                "time": "10:00 AM",
+                "price": 12.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f882",
+                "date": "2023-03-09",
+                "time": "12:00 PM",
+                "price": 15.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f887",
+                "date": "2023-03-09",
+                "time": "2:00 PM",
+                "price": 14.99
+            },
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87f",
+                "date": "2023-03-09",
+                "time": "4:00 PM",
+                "price": 13.99
+            }
+        ]
+    }
+]

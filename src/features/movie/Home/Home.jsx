@@ -5,13 +5,27 @@ import MovieCard from "../MovieCard/MovieCard";
 import SearchPanel from "../SearchPanel/SearchPanel"
 import styles from "./Home.module.css";
 import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { movie, timing } from "../../../store/reducer/BookingReducer";
 const Home = () => {
   const [movies, setMovies] = useState([]);
+  const dispatch = useDispatch()
+  
+
   useEffect(() => {
-    fetch("http://localhost:4000/api/movie")
+    fetch("data.json")
       .then((res) => res.json())
       .then((movies) => {
         setMovies(movies);
+        console.log(movies)
+        dispatch(movie(movies))
+      });
+    fetch("time.json")
+      .then((res) => res.json())
+      .then((time) => {
+        // setMovies(movies);
+        console.log(time)
+        dispatch(timing(time))
       });
   }, []);
   return (
